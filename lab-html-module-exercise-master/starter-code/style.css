@@ -1,0 +1,201 @@
+/*MENU DE NAVEGACIÓN*/
+body {
+    font-family: 'Open Sans', sans-serif;
+margin: 0 auto;
+
+}
+h1 {
+    font-size: 40px;
+    font-weight: 300; 
+}
+h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+}
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 40px;
+  }
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  .top-left {
+      float: left;
+  }
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .top-links li, .acronym{
+      font-size: 14px;
+  }
+  .heart{
+      padding: 0px 15px;
+  }
+/*HEADER*/
+.header{
+background-color: rgb(32, 101, 136);
+color: #fff;
+}
+.parte1{
+padding: 20px; 
+}
+.header-elemento {
+    float: left;
+    display: inline-block;
+}
+.logo-npm{
+    width: 10%;
+    margin-right: 1%;
+}
+.menu-2{
+    width:20%;
+}
+.buscador{
+    width: 67%;
+    background-color: rgb(31, 82, 111);
+    height: 40px;
+    border: 1px solid #999;
+}
+.cabecera{
+    padding: 50px 200px;
+    background-image: url("images/city-scape.svg");
+background-size: cover;
+}
+.clearfix{clear: both;}
+.texto1{
+    width: 50%;
+    float: left;
+}
+
+/*Login*/
+.cara-oso{
+    width: 40%;
+}
+/*formulario buscador*/
+.uno-de-dos{
+    width: 95%;
+    float: left;
+}
+.uno-de-dos-last{
+    width: 5%;
+    float: right;
+}
+.find-packages, .btn-lupa{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    background: transparent;
+    font-size: 18px;
+    height: 30px;
+}
+.btn-lupa{
+    border-left: 1px solid #fff;
+    height: 40px;
+}
+/*Seccion 2*/
+.sign-up{
+    margin: 0 auto;
+    background-color:rgb(39, 53, 71);
+    padding: 50px 200px;
+    color: #fff;
+}
+.col-2{
+    width: 48%;
+}
+.imagen-colaboracion{
+    float: left;
+    padding-top: 7%;
+}
+.texto2{
+    float: right;
+}
+.texto2 li{
+    line-height: 2em;
+    font-size: 14px;
+    font-weight: 300;
+}
+.texto2 p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.texto2 p{
+    margin: 5px 0px 0px 30px;
+}
+/*botones*/
+.btn {
+    color:#fff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 20px 0 0;
+    display: block;
+    width: fit-content;
+    text-align: center;
+}
+.naranja {
+    background-color: rgb(240, 146, 51);
+}
+.rojo {
+    background-color: rgb(203, 56, 55);
+    margin-left:30px;
+}
+.azul {
+    background-color: rgb(49, 68, 88);
+}
+/*Seccion install*/
+.install{
+background-image: url("images/forklift.svg");
+background-size: cover;
+background-position: 0 0;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 445px;;
+}
+.texto-install{
+padding: 50px 200px;
+position: absolute;
+width: 30%;
+color: #fff;
+}
+/*seccion features*/
+.features{
+    padding: 50px 200px;
+    color: rgb(135, 145, 156);
+}
+.titulo-features{
+    text-align: center;
+}
+.titulo-features h2, .iconos h3{
+    color:rgb(83, 88, 98);
+}
+.col-3{
+    width: 29.3%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+.iconos {
+    padding: 0px 2%;
+}
+.enlaces-features a{
+    text-decoration: none;
+    color:rgb(208, 74, 73);
+}
+.footer{
+    background-color: #222;
+    color:#999;
+    padding: 5px 20px;
+    font-size: 12px;
+}
